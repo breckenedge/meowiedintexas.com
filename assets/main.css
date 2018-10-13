@@ -21,12 +21,16 @@ main {
   padding: 1em 0;
 }
 
-.flex-row-container {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.col-1 {
+  flex-grow: 1;
 }
 
 h1, h2 {
