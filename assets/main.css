@@ -1,10 +1,11 @@
 :root {
-  --tiffanyBlue: #81d8d0;
+  --tiffanyBlueColor: #81d8d0;
+  --bodyBackgroundColor: white;
 }
 
 body {
-  border-top: 0.5em solid var(--tiffanyBlue);
-  background-color: white;
+  border-top: 0.5em solid var(--tiffanyBlueColor);
+  background-color: var(--bodyBackgroundColor);
   margin: 0;
   font-family: serif;
   height: 100%;
@@ -12,6 +13,7 @@ body {
 }
 
 header {
+  padding: 1em;
   text-align: center;
 }
 
