@@ -21,6 +21,12 @@ main {
   padding: 1em 0;
 }
 
+main a,
+main a:active,
+main a:visited {
+  color: var(--tiffanyBlueColor);
+}
+
 .row {
   display: flex;
   flex-direction: row;
