@@ -4,7 +4,6 @@
 }
 
 body {
-  border-top: 0.5em solid var(--tiffanyBlueColor);
   background-color: var(--bodyBackgroundColor);
   margin: 0;
   font-family: serif;
@@ -13,8 +12,13 @@ body {
 }
 
 header {
-  padding: 1em;
+  border-top: 0.5em solid var(--tiffanyBlueColor);
+  padding: 1em 0;
   text-align: center;
+}
+
+main {
+  padding: 1em 0;
 }
 
 .flex-row-container {
