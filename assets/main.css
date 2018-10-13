@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: var(--tiffanyBlue);
+  border-top: 0.5em solid var(--tiffanyBlue);
+  background-color: white;
   margin: 0;
-  padding: 1em 0;
   font-family: serif;
   height: 100%;
   width: 100%;
@@ -13,7 +13,7 @@ body {
 
 main {
   background-color: white;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
 }
 
