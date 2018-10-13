@@ -17,11 +17,6 @@ header {
   text-align: center;
 }
 
-main {
-  padding: 1em;
-  text-align: center;
-}
-
 .flex-row-container {
   display: flex;
   flex-direction: row;
