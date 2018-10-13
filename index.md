@@ -15,7 +15,7 @@ Reception
 ---
 
 Time TBD, March 16, 2019  
-Hall of State  
+The Hall of State  
 3939 Grand Ave, Dallas, TX 75210
 
 [Directions](https://goo.gl/maps/y5st2NpNgXz)
