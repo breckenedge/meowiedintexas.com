@@ -2,9 +2,6 @@
 layout: default
 ---
 
-Elizabeth & Aaron's Wedding
-===
-
 2pm, March 16, 2019  
 St. Monica Catholic Church  
 9933 Midway Rd, Dallas, TX 75220

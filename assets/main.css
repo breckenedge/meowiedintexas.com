@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+header {
+  text-align: center;
+}
+
 main {
   background-color: white;
   padding: 1em;
