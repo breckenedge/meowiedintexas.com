@@ -17,6 +17,13 @@ header {
   text-align: center;
 }
 
+hr {
+  border-top: 0.5em solid var(--tiffanyBlueColor);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 main {
   padding: 1em 1em;
 }
