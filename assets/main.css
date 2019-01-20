@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+
 :root {
   --tiffanyBlueColor: #81d8d0;
   --goldColor: rgb(231, 182, 110);
@@ -23,7 +25,7 @@ header {
 }
 
 hr {
-  border-top: 0.25em solid var(--accentColor);
+  border-top: 0.125em solid var(--accentColor);
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -41,8 +43,20 @@ main a:visited {
 
 h1, h2, h3 {
   color: var(--headingColor);
-  font-family: sans-serif;
+  font-family: 'Pinyon Script', cursive;
   font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
 }
 
 img.banner {
