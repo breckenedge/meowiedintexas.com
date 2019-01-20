@@ -1,7 +1,10 @@
 :root {
   --tiffanyBlueColor: #81d8d0;
   --goldColor: rgb(231, 182, 110);
+  --greenColor: #256E5D;
+  --headingColor: #563705;
   --accentColor: var(--goldColor);
+  --linkColor: var(--greenColor);
   --bodyBackgroundColor: white;
 }
 
@@ -33,26 +36,18 @@ main {
 main a,
 main a:active,
 main a:visited {
-  color: var(--accentColor);
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.col-1 {
-  flex-grow: 1;
-}
-
-.col-2 {
-  flex-grow: 2;
+  color: var(--linkColor);
 }
 
 h1, h2, h3 {
-  font-family: serif;
+  color: var(--headingColor);
+  font-family: sans-serif;
   font-weight: normal;
+}
+
+img.banner {
+  width: 100%;
+  max-width: 340px;
+  display: block;
+  margin: 0 auto;
 }
