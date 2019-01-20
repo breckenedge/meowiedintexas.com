@@ -20,7 +20,7 @@ header {
 }
 
 hr {
-  border-top: 0.5em solid var(--accentColor);
+  border-top: 0.25em solid var(--accentColor);
   border-bottom: none;
   border-left: none;
   border-right: none;
