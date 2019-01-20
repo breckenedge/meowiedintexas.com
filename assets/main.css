@@ -1,5 +1,7 @@
 :root {
   --tiffanyBlueColor: #81d8d0;
+  --goldColor: rgb(231, 182, 110);
+  --accentColor: var(--goldColor);
   --bodyBackgroundColor: white;
 }
 
@@ -12,13 +14,13 @@ body {
 }
 
 header {
-  border-top: 0.5em solid var(--tiffanyBlueColor);
+  border-top: 0.5em solid var(--accentColor);
   padding: 1em 0;
   text-align: center;
 }
 
 hr {
-  border-top: 0.5em solid var(--tiffanyBlueColor);
+  border-top: 0.5em solid var(--accentColor);
   border-bottom: none;
   border-left: none;
   border-right: none;
@@ -31,7 +33,7 @@ main {
 main a,
 main a:active,
 main a:visited {
-  color: var(--tiffanyBlueColor);
+  color: var(--accentColor);
 }
 
 .row {
