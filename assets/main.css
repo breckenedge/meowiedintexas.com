@@ -4,7 +4,7 @@
   --tiffanyBlueColor: #81d8d0;
   --goldColor: rgb(231, 182, 110);
   --greenColor: #256E5D;
-  --headingColor: #563705;
+  --headingColor: black;
   --accentColor: var(--goldColor);
   --linkColor: var(--greenColor);
   --bodyBackgroundColor: white;
@@ -12,10 +12,10 @@
 
 body {
   background-color: var(--bodyBackgroundColor);
-  margin: 0;
+  margin: 0 auto;
   font-family: serif;
   height: 100%;
-  width: 100%;
+  max-width: 380px;
 }
 
 header {
@@ -45,6 +45,11 @@ h1, h2, h3 {
   color: var(--headingColor);
   font-family: 'Pinyon Script', cursive;
   font-weight: normal;
+  text-align: center;
+}
+
+.cursive {
+  font-family: 'Pinyon Script', cursive;
 }
 
 h1 {
@@ -64,4 +69,12 @@ img.banner {
   max-width: 340px;
   display: block;
   margin: 0 auto;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.text-muted {
+  opacity: 0.5;
 }
