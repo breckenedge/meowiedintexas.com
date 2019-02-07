@@ -4,4 +4,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" href="{{ "/assets/favicon.png" | relative_url }}" type="image/png">
+  {% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">
+  {% endif %}
 </head>
