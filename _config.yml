@@ -20,6 +20,7 @@ description: >-
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.meowiedintexas.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: breckenedge
+google_verify: _GwtdnOy3GrVLsIgmLZa1OX0gN0mohPPw8qDju5YI9w
 
 # Build settings
 markdown: kramdown
