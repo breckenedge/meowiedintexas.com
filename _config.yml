@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Dr. Elizabeth Carroll and Aaron Breckenridge"
+title: "The Wedding of Dr. Elizabeth Carroll and Mr. Aaron Breckenridge"
 email: aaronbreckenridge@gmail.com
 description: >-
   The website for Dr. Elizabeth Carroll and Aaron Breckenridge's wedding.
